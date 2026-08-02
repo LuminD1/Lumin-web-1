@@ -1,0 +1,167 @@
+
+.logo{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    color: black;
+
+}
+.logo img{
+
+
+    color: black;
+}
+.logo-pic{
+
+    height: 35px;
+    width: auto;
+  
+    color: black;
+
+}
+.logo-line{
+
+
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 28px;]
+    font-weight:bold;
+    color: black;
+   
+}
+
+
+    header {
+    background-color: #F1F3F5; 
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;       
+
+}
+.navi-links a {
+    color: black;           
+    text-decoration: none;    
+    margin: 0 15px;           
+    font-weight: 500;
+    transition: 0.2s;         
+}
+.navi-links a:hover {
+    color: blue; 
+    }
+.cart-cube {
+    background-color: #FF69B4; 
+    padding: 16px 16px;
+    border-radius: 20px;      
+    font-weight: bold;
+    cursor: pointer;
+}
+.img-pro {
+       display: inline-block;
+    width: 277px;         /* Change this number to make the whole card bigger or smaller */
+    border-radius: 30px;
+   
+    border-spacing: 20px;
+     overflow: hidden;  /* Keeps the image corners rounded cleanly */
+     padding: 15px;  
+     background-color: whitesmoke;
+     box-sizing: border-box;
+    margin-top: 30px;
+    margin:  10px 15px;
+    color: black;
+
+   
+}
+.img-pro img{
+
+     width: 100%;
+    height: 260px; 
+  
+ }
+ .img-pro , .img-pro p , .img-pro a{
+    text-decoration: none !important;
+    color: inherit;
+ }
+.img-24{
+
+    padding-top: 15px;
+}
+
+
+.site-footer {
+    background-color:  #F1F3F5; /* Matches your dark header */
+    color: black;
+    padding: 40px 20px 20px 20px;
+    font-family: sans-serif;
+    margin-top: 60px; /* Pushes footer away from content */
+}
+
+/* Flexbox Layout for Columns */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Typography & Links */
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    color: black /* Subtle grey for headings */
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    color: black;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+/* Hover Effect */
+.footer-column ul li a:hover {
+    color: black; 
+}
+
+/* Copyright Bar */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #2d3748; /* Thin divider line */
+    text-align: center;
+    font-size: 0.85rem;
+    color: #718096;
+}
+
+
+
+
+ 

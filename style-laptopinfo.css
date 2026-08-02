@@ -1,0 +1,57 @@
+
+.logo{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    color: black;
+
+}
+.logo img{
+
+
+    color: black;
+}
+.logo-pic{
+
+    height: 35px;
+    width: auto;
+  
+    color: black;
+
+}
+.logo-line{
+
+
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 28px;]
+    font-weight:bold;
+    color: black;
+   
+}
+
+
+    header {
+    background-color: #F1F3F5; 
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;       
+
+}
+.navi-links a {
+    color: black;           
+    text-decoration: none;    
+    margin: 0 15px;           
+    font-weight: 500;
+    transition: 0.2s;         
+}
+.navi-links a:hover {
+    color: blue; 
+    }
+.cart-cube {
+    background-color: #FF69B4; 
+    padding: 16px 16px;
+    border-radius: 20px;      
+    font-weight: bold;
+    cursor: pointer;
+}
